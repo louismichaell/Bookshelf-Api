@@ -1,0 +1,23 @@
+{
+    "name": "proyek-bookshelf-api-dicoding",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./src/server.js",
+        "lint": "eslint ./src"
+    },
+    "keywords": [],
+    "author": "Louis Michael",
+    "license": "ISC",
+    "devDependencies": {
+        "eslint": "^8.57.1",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.31.0",
+        "nodemon": "^3.0.1"
+    },
+    "dependencies": {
+        "@hapi/hapi": "^21.3.9",
+        "nanoid": "^3.3.1"
+    }
+}
